@@ -14,7 +14,7 @@ jobs:
     container: # (real one)
       image: node:24
     env:
-      MONGODB_CONNECTION_PROTOCOL: mongodb+srv # mongodb+srv (real one)
+      MONGODB_CONNECTION_PROTOCOL: mongodb # mongodb+srv (real one)
       MONGODB_CLUSTER_ADDRESS: mongodb # mongodb (real one)
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
